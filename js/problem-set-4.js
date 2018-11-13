@@ -5,7 +5,8 @@
 function hello() {
 
   // WRITE YOUR EXERCISE 1 CODE HERE
-
+  var div = document.getElementById('output1');
+  div.innerHTML="Hello, AP Computer Science Principles!";
   ////////////////// DO NOT MODIFY
   check("hello"); // DO NOT MODIFY
   ////////////////// DO NOT MODIFY
@@ -25,7 +26,9 @@ function helloAgain() {
   // do not need to re-declare it, only assign it a value.
 
   // WRITE YOUR EXERCISE 2 CODE HERE
-
+  name =prompt("Please Enter Your Name");
+  var div2= document.getElementById('output2')
+  div2.innerHTML = "Hello, " + name + "!"
   ///////////////////////////// DO NOT MODIFY
   check("helloAgain", name); // DO NOT MODIFY
   ///////////////////////////// DO NOT MODIFY
