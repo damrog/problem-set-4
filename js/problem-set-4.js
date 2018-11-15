@@ -48,7 +48,8 @@ function celsius() {
   // (inclusive), and rounds this value to 2 decimal places.
 
   // WRITE YOUR EXERCISE 3 CODE HERE
-
+let fahrenheit = ((cels*9)/5 + 32).toFixed(2);
+let div = document.getElementById('output3')
   ////////////////////////// DO NOT MODIFY
   check("celsius", cels); // DO NOT MODIFY
   ////////////////////////// DO NOT MODIFY
